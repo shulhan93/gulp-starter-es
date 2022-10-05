@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    font-family: Arial, serif;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: red;
+    }
+}
+@import "blocks/title.css";
