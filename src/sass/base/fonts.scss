@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "name"; //указываем любое имя
+    src: url("../fonts/"), url("../fonts/"), url("../fonts/"); // подключать сначала woff2 -> woff -> ttf -> otf
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}

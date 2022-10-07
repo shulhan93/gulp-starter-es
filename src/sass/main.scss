@@ -1,13 +1,4 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    height: 300px;
-    margin: 0;
-    font-size: 12px;
-    font-family: Arial, serif;
-    background: url("../img/img1.jpeg") center center / cover no-repeat;
-}
-
-@import "blocks/*.scss";
+@import "./libs/normalize.scss";
+@import "./base/reset.scss";
+@import "./base/var.scss";
+@import "./base/media.scss";
